@@ -624,20 +624,20 @@ Services
 }
 
 .available-experiences .img-1 {
-  width: 65%;
-  height: 22rem;
+  width: 25vw;
+  height: 50vh;
   border-radius: 22px;
 }
 
 .available-experiences .img-2 {
-  width: 65%;
-  height: 22rem;
+  width: 25vw;
+    height: 50vh;
   border-radius: 22px;
 }
 
 .img-3 {
-  width: 65%;
-  height: 22rem;
+  width: 25vw;
+    height: 50vh;
   border-radius: 22px;
 }
 
