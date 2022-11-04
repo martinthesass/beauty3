@@ -277,7 +277,7 @@ SIDE BAR
   display: grid;
   place-items: center;
   transition: 0.8s;
-  transform: translateX(-100%);
+  transform: translateX(-125%);
 }
 
 .show-sidebar {
