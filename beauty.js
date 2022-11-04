@@ -78,31 +78,31 @@ prevBtn.addEventListener("click", function(){
 const reviews = [{
   identity: 1,
   img: "../images/head1.jpg",
-  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  text: "Couldn't recommend highly enough."
 }, 
 
 {
   identity: 2,
   img: "../images/head2.jpg",
-  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  text: "5 star service. Simply the best. "
 }, 
 
 {
   identity: 3,
   img: "../images/head3.jpg",
-  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  text: "The service was second to none."
 }, 
 
 {
   identity: 4,
   img: "../images/head4.jpg",
-  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  text: "I book every wee. I won't go to anyone else"
 }, 
 
 {
   identity: 5,
    img: "../images/head5.jpg",
-  text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  text: "You are beautiful."
 }, 
 ];
 
