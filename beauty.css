@@ -280,6 +280,14 @@ SIDE BAR
   transform: translateX(-100%);
 }
 
+.navigate{
+  border: none;
+  background-color: pink;
+  font-size: 1.75rem;
+  font-family: "courgette";
+  letter-spacing: 0.35rem;
+}
+
 .show-sidebar {
   transform: translateX(0);
 }

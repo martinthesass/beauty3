@@ -2,11 +2,18 @@ const closeBtn = document.querySelector(".close-btn");
 const navBtn = document.querySelector(".nav-btn");
 const sidebar = document.querySelector(".sidebar");
 const navbar = document.querySelector(".nav");
-const close = document.querySelector(".close");
+const close = document.querySelectorAll(".close");
 
-close.addEventListener("click", function(){
-sidebar.classList.toggle("show-sidebar");
-});
+
+
+close.forEach(function(btn){
+  btn.addEventListener("click", function(e){
+    const styles = e.currentTarget.classList;
+    if (styles.contains("close")){
+      sidebar.classList.toggle("show-sidebar");
+    }
+  })
+})
 
 
 
