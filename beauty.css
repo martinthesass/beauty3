@@ -335,8 +335,8 @@ SIDE BAR
   border: transparent;
   font-size: 2rem;
   position: absolute;
-  top: 10rem;
-  right: 1rem;
+  top: 3rem;
+  right: 2rem;
   cursor: pointer;
   color: #f50081;
 }
