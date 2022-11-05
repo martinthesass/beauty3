@@ -103,7 +103,7 @@ const reviews = [{
 {
   identity: 4,
   img: "../images/head4.jpg",
-  text: "I book every wee. I won't go to anyone else"
+  text: "I book every week. I won't go to anyone else"
 }, 
 
 {
