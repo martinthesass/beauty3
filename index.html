@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type="text/partytown"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,6 +27,14 @@
 </head>
 
 <body>
+
+    <script type="module">
+        import {partytownSnippet } from '@builder.io/partytown/integration';
+        const snippetText = partytownSnippet();
+        const el = document.createElement('script');
+        el.innerText = snippetText;
+        document.body.appendChild(el);
+    </script>
     <!--start of nav-bar-->
     <nav class="nav">
         <div class="nav-center">
